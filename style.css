@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    background: url(assets/bobux.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+  }
+
+
+
+  
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+.searchTerm {
+    width: 100%;
+    border: 2px solid #ffa142;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 20px;
+    color: #ffa142;
+  }
+  
+.searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #ffa142;
+    background: #ffa142;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  
+.container{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  
